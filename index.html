@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0c121b"><title>Wander Slowly — Creator Studio</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="app">
+<aside class="sidebar" id="sidebar">
+  <div class="brand"><span class="brand-icon">S</span><span><b>Servo</b><small>Wander Slowly</small></span><button id="collapseBtn" title="Collapse sidebar">◧</button></div>
+  <div class="nav-label">STUDIO</div>
+  <nav>
+    <button class="nav active" data-page="Overview"><span>⌂</span>Overview</button>
+    <button class="nav" data-page="Content"><span>▣</span>Content</button>
+    <button class="nav" data-page="Analytics"><span>♧</span>Analytics</button>
+    <button class="nav" data-page="Planner"><span>▦</span>Planner</button>
+  </nav>
+  <div class="nav-label">EARN</div>
+  <nav>
+    <button class="nav" data-page="Revenue"><span>◉</span>Revenue</button>
+    <button class="nav" data-page="Shop"><span>▤</span>Shop <i class="nav-dot"></i></button>
+  </nav>
+  <div class="nav-label">PEOPLE</div>
+  <nav><button class="nav" data-page="Community"><span>♧</span>Community <i class="nav-count">8</i></button></nav>
+  <div class="side-spacer"></div>
+  <nav class="side-bottom"><button class="nav" data-page="Settings"><span>⚙</span>Settings</button><button class="nav" data-page="Help"><span>ⓘ</span>Help</button></nav>
+  <div class="profile"><span class="avatar">MS</span><span><b>Marta Silva</b><small>@wander.slowly</small></span><button id="profileMenu">···</button></div>
+</aside>
+<main class="main">
+<header class="topbar"><div class="breadcrumbs"><span>Wander Slowly</span><b>›</b><strong id="crumb">Overview</strong></div><div class="top-actions"><button class="icon-btn" id="searchBtn" title="Search">⌕</button><button class="icon-btn" id="themeBtn" title="Toggle theme">☼</button><button class="icon-btn notification" id="notifyBtn" title="Notifications">♧<i></i></button><button class="create-btn" id="createBtn">＋ Create</button></div></header>
+<section id="view"></section>
+</main></div>
+<div class="modal-backdrop hidden" id="modal"><div class="modal"><button class="modal-close" id="modalClose">×</button><div id="modalBody"></div></div></div>
+<div class="toast" id="toast"></div>
+<script src="app.js"></script></body></html>
